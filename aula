@@ -1,0 +1,5 @@
+lista = ['Maria', 'herina', 'tuli']
+indices = range(len(lista))
+
+for indece in indices:
+    print(indece)
