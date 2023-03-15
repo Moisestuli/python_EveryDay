@@ -31,5 +31,8 @@ def generator(n=0):
 
 gen = generator()
 
-for n, t  in gen:
-    print(n, t)
+for n in gen:
+    for i in gen:
+        print(n, i)
+
+
